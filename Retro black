@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solo Jordan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Oswald', sans-serif; }
+  </style>
+</head>
+<body class="bg-neutral-950 text-white">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center px-6 py-4 border-b border-neutral-800">
+    <h1 class="text-2xl md:text-3xl font-bold tracking-wide">SOLO JORDAN</h1>
+    <nav class="space-x-4 text-sm uppercase tracking-wider">
+      <a href="#historia" class="hover:text-red-500">Historia</a>
+      <a href="#modelos" class="hover:text-red-500">Modelos</a>
+      <a href="#galeria" class="hover:text-red-500">Galería</a>
+    </nav>
+  </header>
+
+  <!-- Intro -->
+  <section class="text-center py-16 px-6 bg-neutral-900">
+    <h2 class="text-4xl md:text-5xl font-extrabold text-red-500">Más que zapatillas. Una leyenda.</h2>
+    <p class="mt-4 max-w-2xl mx-auto text-neutral-400">Air Jordan no es solo calzado, es cultura. Desde las canchas hasta las calles, cada par cuenta una historia de estilo, rebeldía y grandeza.</p>
+  </section>
+
+  <!-- Historia -->
+  <section id="historia" class="px-6 py-16">
+    <h3 class="text-3xl font-bold mb-6 border-l-4 border-red-500 pl-4">La Historia</h3>
+    <p class="text-neutral-400 max-w-3xl">
+      En 1984, Nike apostó por un joven de la NBA llamado Michael Jordan. El resultado: una revolución en el deporte y la moda urbana. Las Air Jordan I fueron prohibidas por la NBA, pero esa prohibición solo aumentó su leyenda. Cada nuevo modelo ha mezclado innovación con un legado imbatible.
+    </p>
+  </section>
+
+  <!-- Modelos icónicos -->
+  <section id="modelos" class="px-6 py-16 bg-neutral-900">
+    <h3 class="text-3xl font-bold mb-6 border-l-4 border-red-500 pl-4">Modelos Icónicos</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-neutral-800 p-4 rounded-xl shadow-lg">
+        <img src="https://images.unsplash.com/photo-1603787081267-59be7e6a9d83?auto=format&fit=crop&w=800" alt="Air Jordan 1" class="rounded-md mb-4">
+        <h4 class="text-xl font-semibold text-red-500">Air Jordan I</h4>
+        <p class="text-neutral-400 text-sm">El origen de todo. Prohibido en la NBA, amado en las calles.</p>
+      </div>
+      <div class="bg-neutral-800 p-4 rounded-xl shadow-lg">
+        <img src="https://images.unsplash.com/photo-1617864588063-9d29380aa6db?auto=format&fit=crop&w=800" alt="Air Jordan 3" class="rounded-md mb-4">
+        <h4 class="text-xl font-semibold text-red-500">Air Jordan III</h4>
+        <p class="text-neutral-400 text-sm">Diseño de Tinker Hatfield, con el famoso logo Jumpman por primera vez.</p>
+      </div>
+      <div class="bg-neutral-800 p-4 rounded-xl shadow-lg">
+        <img src="https://images.unsplash.com/photo-1632213881875-b9ab2cc9c438?auto=format&fit=crop&w=800" alt="Air Jordan 11" class="rounded-md mb-4">
+        <h4 class="text-xl font-semibold text-red-500">Air Jordan XI</h4>
+        <p class="text-neutral-400 text-sm">Elegancia pura. Usadas por MJ en su regreso triunfal.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section id="galeria" class="px-6 py-16">
+    <h3 class="text-3xl font-bold mb-6 border-l-4 border-red-500 pl-4">Galería</h3>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1c5?auto=format&fit=crop&w=400" class="rounded-lg shadow-md" alt="Jordan Gallery 1">
+      <img src="https://images.unsplash.com/photo-1606813902915-13e6a087fd7c?auto=format&fit=crop&w=400" class="rounded-lg shadow-md" alt="Jordan Gallery 2">
+      <img src="https://images.unsplash.com/photo-1618354691373-8cce3e70c702?auto=format&fit=crop&w=400" class="rounded-lg shadow-md" alt="Jordan Gallery 3">
+      <img src="https://images.unsplash.com/photo-1575537302964-96cd47ef8a71?auto=format&fit=crop&w=400" class="rounded-lg shadow-md" alt="Jordan Gallery 4">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-neutral-900 px-6 py-8 text-center text-neutral-500 text-sm">
+    <p>&copy; 2025 Solo Jordan. Inspirado en la leyenda.</p>
+    <div class="mt-2 space-x-4">
+      <a href="#" class="hover:text-white">Instagram</a>
+      <a href="#" class="hover:text-white">YouTube</a>
+      <a href="#" class="hover:text-white">Contacto</a>
+    </div>
+  </footer>
+
+</body>
+</html>
